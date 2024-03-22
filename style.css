@@ -1,6 +1,8 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,14 +11,20 @@
 body{
     background-color: #141414;
     color: white;
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container{
     background-color: #1F1F1F;
     text-align: center;
     width: 330px;
-    height: 450px;
-    margin: 20vh auto;
     border-radius: 8px;
 }
 
@@ -36,11 +44,14 @@ img{
 
 .description{
     margin: 20px;
+    font-size: 14px;
 }
 
 .link{
     background-color: #333333;
-    width: 70%;
     margin: 10px auto;
     padding: 10px;
+    display: block;
+    text-decoration: none; 
+    color: white;
 }
