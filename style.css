@@ -54,4 +54,5 @@ img{
     display: block;
     text-decoration: none; 
     color: white;
+    border-radius: 8px;
 }
